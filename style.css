@@ -1,0 +1,105 @@
+* {
+  font-family: 'Merriweather', serif;
+  color: #575F7D;
+}
+
+body{
+  background-color: #f7ebe8;
+}
+
+h1{
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+  font-size: 40px;
+}
+h1, h2{
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  color: #444140;
+}
+
+div{
+  background-color: white;
+  margin: 30 auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+a{
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:black;
+}
+
+.btn-saumon{
+  background-color: #cc7178;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+
+.profil_description {
+  padding-bottom: 50px;
+}
+
+.list-btn{
+  list-style: none;
+  padding: 0
+}
+.list-btn > li{
+  display: inline-block;
+  font-size: 32px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.list-btn > li > a > i{
+  color: #cc7178;
+}
+
+
+@media (max-width: 10000px){
+  div {
+    width: 700px;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 720px){
+  div {
+    width: 500px;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 540px){
+  div {
+    width: 300px;
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
